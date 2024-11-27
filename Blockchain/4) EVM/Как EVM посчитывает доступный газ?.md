@@ -1,0 +1,60 @@
+---
+title: Как EVM посчитывает доступный газ?
+tags: [EVM, Ethereum, Транзакции, Gas, Gas Limit, Gas Used, Opcodes]
+---
+
+## Короткий ответ
+
+EVM вычисляет доступный газ, вычитая **gas used** (использованный газ) из **gas limit** (лимита газа), установленного отправителем транзакции.
+
+
+## Подробный разбор
+
+**Gas Limit:**
+
+* **Устанавливается отправителем:**  При отправке транзакции,  отправитель устанавливает **gas limit** -  maximum amount of gas (максимальное количество газа), которое он готов потратить на выполнение транзакции.  (см. [[В чем различие Gas Price и Gas Limit?]])  Это значение включается в транзакцию.
+
+
+**Gas Used:**
+
+* **Накапливается во время выполнения:** EVM отслеживает  **gas used**  - accumulated gas cost (накопленную стоимость газа)  выполненных операций.  Каждый opcode в EVM имеет predefined gas cost (предопределенную стоимость газа).   (See resources for gas costs by opcode).
+
+
+**Вычисление доступного газа:**
+
+Перед выполнением каждого opcode,  EVM проверяет, достаточно ли remaining gas (осталось газа) для его выполнения:
+
+`Available Gas = Gas Limit - Gas Used`
+
+
+**Если Available Gas < Gas Cost (opcode):**
+
+* **Out of Gas (Недостаточно газа):**  Транзакция  **отменяется (reverted)**.   Все изменения состояния, сделанные транзакцией,  **откатываются**,  возвращая blockchain state (состояние блокчейна)  к  previous state (предыдущему состоянию).
+* **Gas Fee списывается:**  Несмотря на отмену транзакции,  **gas fee**,  рассчитанная на основе  `Gas Used * Gas Price`,  **списывается** со счета отправителя.  Это payment to the miner (плата майнеру)  за already performed computations (уже выполненные вычисления).  (см. [[Почему нужно платить fee за выполнение если транзакция отменилась из-за ошибки?]])
+
+
+**Если Available Gas >= Gas Cost (opcode):**
+
+* **Opcode выполняется:** Opcode выполняется, и его  gas cost (стоимость газа)  добавляется к  `Gas Used`.
+* **Выполнение продолжается:** EVM переходит к следующему opcode и повторяет процесс проверки available gas.
+
+
+
+## Связанные темы
+
+* [Вернуться к списку вопросов](4.%20Список%20вопросов.md)
+* [[Что такое газ?]]
+* [[В чем различие Gas Price и Gas Limit?]]
+* [[Как рассчитать Transaction fee?]]
+* [[Почему нужно платить fee за выполнение если транзакция отменилась из-за ошибки?]]
+
+
+
+
+## Источники
+
+* [Ethereum Documentation - Gas and Fees](https://ethereum.org/en/developers/docs/gas/)
+* [Yellow Paper - Gas](https://ethereum.github.io/yellowpaper/paper.pdf)  <- Appendix G in Yellow Paper lists gas costs per opcode.
+
+
+---
