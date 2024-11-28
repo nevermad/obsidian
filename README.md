@@ -12,6 +12,10 @@
 1. Импортируйте все заметки в вашу Obsidian Vault.
 2. Формулы отображаются корректно с плагином Mathjax. Убедитесь, что поддержка включена в настройках Obsidian.
 
+#### Настройки для canvas схем
+1. Поставить плагин Canvas Send to Back
+2. Включить css стиль snippet в Option -> Appearance -> CSS Snippet 
+
 ---
 
 ## Вклад
