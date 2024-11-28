@@ -1,6 +1,12 @@
 ---
 title: EVM Opcodes для работы со Storage
-tags: [EVM, Ethereum, Opcodes, Storage, SLOAD, SSTORE]
+tags:
+  - EVM
+  - Ethereum
+  - Opcodes
+  - Storage
+  - SLOAD
+  - SSTORE
 ---
 
 ## Короткий ответ
