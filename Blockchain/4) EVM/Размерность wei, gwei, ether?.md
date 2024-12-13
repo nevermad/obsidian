@@ -7,7 +7,7 @@ tags: [EVM, Ethereum, Ether, Wei, Gwei, Размерность]
 
 **Ether (ETH)** - основная единица криптовалюты Ethereum.  **Wei** - наименьшая единица Ether.  **Gwei** (гигавей) - это 10<sup>9</sup> Wei, часто используется для указания Gas Price.
 
-
+![[Pasted image 20241213173854.png]]
 ## Подробный разбор
 
 **Wei:**

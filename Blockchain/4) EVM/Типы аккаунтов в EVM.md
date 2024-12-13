@@ -7,6 +7,8 @@ tags: [EVM, Ethereum, Аккаунты]
 
 В EVM есть два типа аккаунтов: **Externally Owned Accounts (EOA)**, управляемые пользователями через приватные ключи, и **Contract Accounts**, содержащие смарт-контракты и управляемые кодом.
 
+![[Pasted image 20241213172907.png]]
+
 ## Подробный разбор
 
 ### EOA (Externally Owned Account)
