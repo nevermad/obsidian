@@ -60,8 +60,6 @@ Proxy Pattern - это шаблон проектирования в Ethereum, п
 * [[Можно ли сделать контракт изменяемым?]]
 * [[Какие преимущества и недостатки есть у неизменности контрактов?]]
 
-
-
 ## Источники
 
 * [OpenZeppelin Upgrades: Secure and Transparent Contract Upgrades](https://docs.openzeppelin.com/upgrades-plugins/1.x/)
