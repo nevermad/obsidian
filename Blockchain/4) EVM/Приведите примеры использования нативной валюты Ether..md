@@ -41,8 +41,6 @@ Ether (ETH), нативная криптовалюта сети Ethereum, име
 * [[В чем различие Gas Price и Gas Limit?]]
 * [[Основная идея и механизм работы POS(Ethereum version)? Расскажите о создании и финализации блоков в Ethereum.]]
 
-
-
 ## Источники
 
 * [Ethereum.org - Use Cases](https://ethereum.org/en/eth/)

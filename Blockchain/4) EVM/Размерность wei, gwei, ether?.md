@@ -28,7 +28,6 @@ tags: [EVM, Ethereum, Ether, Wei, Gwei, Размерность]
 
 * **Основная единица:** Ether - это основная единица криптовалюты Ethereum,  используемая для переводов, оплаты gas и других операций.
 
-
 **Таблица соотношений:**
 
 | Единица | Wei        | Gwei       | Ether      |
@@ -37,18 +36,15 @@ tags: [EVM, Ethereum, Ether, Wei, Gwei, Размерность]
 | 1 Gwei  | 10<sup>9</sup> | 1          | 10<sup>-9</sup> |
 | 1 Ether | 10<sup>18</sup> | 10<sup>9</sup> | 1          |
 
-
 ## Связанные темы
 
 * [Вернуться к списку вопросов](4.%20Список%20вопросов.md)
 * [[В чем различие Gas Price и Gas Limit?]]
 * [[Как рассчитать Transaction fee?]]
 
-
 ## Источники
 
 * [Ethereum Documentation - Ether](https://ethereum.org/en/developers/docs/units-and-global-variables/#ether-and-wei)
-
 
 
 ---
