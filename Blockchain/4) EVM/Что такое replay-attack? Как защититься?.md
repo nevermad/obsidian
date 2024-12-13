@@ -32,7 +32,6 @@ Replay-attack - это тип атаки, при которой злоумышл
 * [[Почему Nonce увеличивается после каждой транзакции?]]
 * [[Когда еще Nonce увеличивается помимо исполнения транзакции?]]
 
-
 ## Источники
 
 * [OWASP - Replay Attacks](https://owasp.org/www-community/attacks/Replay_attack)
