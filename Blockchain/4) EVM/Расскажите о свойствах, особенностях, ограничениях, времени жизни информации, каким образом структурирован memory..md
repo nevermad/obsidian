@@ -49,5 +49,4 @@ Memory в EVM - это **байтово-адресуемый массив**, и�
 * [Ethereum Yellow Paper - EVM](https://ethereum.github.io/yellowpaper/paper.pdf#page=14) - Section 9.2 describes EVM Memory
 * [Solidity Documentation - Data Location](https://docs.soliditylang.org/en/v0.8.20/internals/layout_in_memory.html)
 
-
 ---
