@@ -87,5 +87,4 @@
 
 ## Источники
 - [Solidity Documentation - Types](https://docs.soliditylang.org/en/latest/types.html)
-- [Understanding Value and Reference Types in Solidity](https://ethereum.stackexchange.com/questions/91874/what-is-the-difference-between-value-types-and-reference-types-in-solidity)
 ---
