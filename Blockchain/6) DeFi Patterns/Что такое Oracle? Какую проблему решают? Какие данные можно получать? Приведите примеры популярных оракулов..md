@@ -108,6 +108,7 @@ contract PriceConsumer {
 - [[Как оракулы гарантируют надежность предоставляемых данных?]]
 - [[Расскажите о Chainlink Price Feed]]
 - [[Расскажите об атаке манипуляции ценой оракула]]
+- [[Что такое TWAP оракул?]]
 
 ## Источники
 - [Chainlink Documentation](https://docs.chain.link/)

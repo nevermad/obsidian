@@ -247,6 +247,7 @@ contract SecurityBestPractices {
 ---
 
 ## Связанные темы
+- [[6. Список вопросов]]
 - [[Что такое и для чего необходим Governance Token?]]
 - [[Что такое и как работает Multisig?]]
 - [[Расскажите о работе role-based AccessControl OpenZeppelin]]

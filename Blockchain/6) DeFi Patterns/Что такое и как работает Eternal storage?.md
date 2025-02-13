@@ -308,6 +308,7 @@ contract EternalToken is EternalStorage {
 ---
 
 ## Связанные темы
+- [[6. Список вопросов]]
 - [[Расскажите подробно как работает паттерн proxy?]]
 - [[Что такое storage collision?]]
 - [[Расскажите о Unstructured storage?]]

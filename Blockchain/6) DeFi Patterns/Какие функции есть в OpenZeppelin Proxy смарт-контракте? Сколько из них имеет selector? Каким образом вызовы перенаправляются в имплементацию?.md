@@ -290,6 +290,7 @@ contract ProxyOptimizations {
 ---
 
 ## Связанные темы
+- [[6. Список вопросов]]
 - [[Как работает delegatecall?]]
 - [[Какие значения msg.value, msg.sender при call, staticcall, delegatecall?]]
 - [[Расскажите подробно как работает паттерн proxy?]]

@@ -321,6 +321,7 @@ contract GovernanceVoting {
 ---
 
 ## Связанные темы
+- [[6. Список вопросов]]
 - [[Что такое DAO?]]
 - [[Voting power и баланс Governance Token это одинаковые понятия?]]
 - [[При голосовании Governance Token блокируется?]]

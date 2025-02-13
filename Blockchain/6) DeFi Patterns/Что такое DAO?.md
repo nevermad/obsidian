@@ -338,13 +338,13 @@ contract TimelockGovernance {
 ---
 
 ## Связанные темы
+- [[6. Список вопросов]]
 - [[Что такое и для чего необходим Governance Token?]]
-- [[Voting power и баланс Governance Token это одинаковые понятия?]]
-- [[При голосовании Governance Token блокируется?]]
-
----
+- [[Как происходит процесс голосования в DAO?]]
+- [[Что такое Multisig?]]
+- [[Что такое и для чего необходим Governance Token?]]
 
 ## Источники
-- [Compound Governance](https://compound.finance/docs/governance)
+- [Compound DAO](https://compound.finance/docs/governance)
 - [Uniswap Governance](https://docs.uniswap.org/protocol/concepts/governance/overview)
-- [OpenZeppelin Governor](https://docs.openzeppelin.com/contracts/4.x/api/governance) 
+- [MakerDAO Documentation](https://docs.makerdao.com/) 

@@ -265,6 +265,7 @@ contract AdvancedERC165 is ERC165 {
 ---
 
 ## Связанные темы
+- [[6. Список вопросов]]
 - [[Как работает механизм обратных вызовов в ERC-721 и ERC-1155?]]
 - [[Что такое и в чем различие fungible token, non-fungible token, semi-fungible token? Приведите примеры.]]
 - [[Как работает механизм approve в ERC-721?]]

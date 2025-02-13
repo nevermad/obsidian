@@ -259,6 +259,7 @@ contract SafeUpgrade {
 ---
 
 ## Связанные темы
+- [[6. Список вопросов]]
 - [[Что такое storage collision?]]
 - [[Расскажите о паттерне inherited storage]]
 - [[Расскажите о Unstructured storage]]

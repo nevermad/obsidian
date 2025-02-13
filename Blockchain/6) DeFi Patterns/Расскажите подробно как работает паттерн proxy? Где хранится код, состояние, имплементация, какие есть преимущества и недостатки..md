@@ -239,6 +239,7 @@ contract SecureProxy {
 ---
 
 ## Связанные темы
+- [[6. Список вопросов]]
 - [[Как работает delegatecall?]]
 - [[Что такое storage collision?]]
 - [[Какие типы proxy вы знаете?]]

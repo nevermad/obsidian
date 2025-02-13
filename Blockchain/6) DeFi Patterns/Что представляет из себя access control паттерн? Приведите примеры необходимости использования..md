@@ -225,11 +225,11 @@ contract AccessControl {
 ---
 
 ## Связанные темы
-- [[Расскажите идею и возможности паттерна Ownable. Какие функции контракт имеет? Как выдавать и забирать доступ?]]
+- [[6. Список вопросов]]
+- [[Расскажите идею и возможности паттерна Ownable]]
 - [[Расскажите о работе role-based AccessControl OpenZeppelin]]
 - [[Что такое и как работает Multisig?]]
-
----
+- [[Расскажите идею и возможности паттерна Ownable2Step]]
 
 ## Источники
 - [OpenZeppelin Access Control](https://docs.openzeppelin.com/contracts/4.x/access-control)

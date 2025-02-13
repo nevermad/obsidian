@@ -171,6 +171,8 @@ contract Target {
 ---
 
 ## Связанные темы
+
+- [[6. Список вопросов]]
 - [[Какие значения msg.value, msg.sender при call, staticcall, delegatecall?]]
 - [[Расскажите подробно как работает паттерн proxy?]]
 - [[Что такое storage collision?]]
