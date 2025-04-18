@@ -631,7 +631,7 @@ func sortOptimized(data []int) {
 - [Go Specification: Appending to and copying slices](https://golang.org/ref/spec#Appending_and_copying_slices)
 - [Go Source Code: runtime/slice.go](https://github.com/golang/go/blob/master/src/runtime/slice.go)
 - [Go Source Code: runtime/malloc.go](https://github.com/golang/go/blob/master/src/runtime/malloc.go)
-- [Go 101: Slices in Go](https://go101.org/article/slice.html)
+- [Go 101: Slices in Go](https://go101.org/article/container.html)
 - [Dave Cheney: Slices from the ground up](https://dave.cheney.net/2018/07/12/slices-from-the-ground-up)
 - [Russ Cox: Arrays, slices (and strings): The mechanics of 'append'](https://blog.golang.org/slices)
 - [Go Internals: Slices](https://github.com/teh-cmc/go-internals/blob/master/chapter2_interfaces/README.md)
