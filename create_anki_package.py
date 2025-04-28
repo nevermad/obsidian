@@ -6,9 +6,9 @@ import html
 import re
 
 # Configuration
-input_directory = "/Users/fapus/Obsidian/fapus/GO/Часть 2 - Составные типы данных/Ответы"
+input_directory = "/Users/fapus/Obsidian/fapus/GO/Часть 3 - Go Runtime/Ответы"
 anki_txt_file = os.path.join(input_directory, "ANKI.txt")
-output_file = os.path.join(input_directory, "GO_Part2_Anki.apkg")
+output_file = os.path.join(input_directory, "GO_Part3_Anki.apkg")
 
 # Create a unique model ID and deck ID
 model_id = random.randrange(1 << 30, 1 << 31)
@@ -76,7 +76,7 @@ model = genanki.Model(
 # Create a new deck
 deck = genanki.Deck(
     deck_id,
-    'GO Part 2 - Composite Data Types')
+    'GO Part 3 - Go Runtime')
 
 # Function to properly escape HTML content and improve code formatting
 def process_content(content):
@@ -136,20 +136,16 @@ def extract_qa_from_markdown(file_path):
     if file_title.endswith('.md'):
         file_title = file_title[:-3]  # Remove .md extension
     
-    # Find all question-answer pairs using regex
-    # Each question starts with ## and a number
-    questions_pattern = r'## \d+\. (.*?)\n(.*?)(?=\n## \d+\.|\Z)'
+    # Новое регулярное выражение: вопрос — любая строка, начинающаяся с '## ', ответ — до следующего '## ' или конца файла
+    questions_pattern = r'## ?(.*?)\n(.*?)(?=\n## |\Z)'
     qa_pairs = re.findall(questions_pattern, content, re.DOTALL)
     
-    # Make sure the answers don't have extra newlines at the beginning
     qa_results = []
     for question, answer in qa_pairs:
         answer = answer.strip()
         
-        # Convert markdown code blocks to HTML with proper formatting
-        # Handle go specific code blocks
+        # Обработка code block
         answer = re.sub(r'```go\s*\n(.*?)\n```', r'<pre><code>\1</code></pre>', answer, flags=re.DOTALL)
-        # Handle generic code blocks - capture language if specified
         answer = re.sub(r'```(?:\w*)\s*\n(.*?)\n```', r'<pre><code>\1</code></pre>', answer, flags=re.DOTALL)
         
         # Add file title context to the question
