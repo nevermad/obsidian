@@ -6,9 +6,9 @@ import html
 import re
 
 # Configuration
-input_directory = "/Users/fapus/Obsidian/fapus/GO/Часть 3 - Go Runtime/Ответы"
+input_directory = "/Users/fapus/Obsidian/fapus/GO/Часть 5 - Обработка ошибок/Ответы"
 anki_txt_file = os.path.join(input_directory, "ANKI.txt")
-output_file = os.path.join(input_directory, "GO_Part3_Anki.apkg")
+output_file = os.path.join(input_directory, "GO_Part5_Anki.apkg")
 
 # Create a unique model ID and deck ID
 model_id = random.randrange(1 << 30, 1 << 31)
@@ -76,7 +76,7 @@ model = genanki.Model(
 # Create a new deck
 deck = genanki.Deck(
     deck_id,
-    'GO Part 3 - Go Runtime')
+    'GO Part 5 - Обработка ошибок')
 
 # Function to properly escape HTML content and improve code formatting
 def process_content(content):
